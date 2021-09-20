@@ -1,0 +1,23 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "*"
+wasm-logger = "*"
+wee_alloc = { version = "*" }
+yew = "*"
+yew-router = "*"
+web-sys = { version = "*" }
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3"
+
+
+[features]
+default = []
+mock_http = []

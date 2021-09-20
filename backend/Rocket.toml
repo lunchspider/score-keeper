@@ -1,0 +1,3 @@
+[global.databases]
+score_table = { url = "mysql://lunchspider:archi@localhost:3306/scorekeeper" }
+
